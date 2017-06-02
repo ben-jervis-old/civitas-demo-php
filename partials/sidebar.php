@@ -1,6 +1,6 @@
 <div id="sidebar" class="hidden-xs">
 	<div id="user-info-card">
-		<img src="/demopage/usericon.png" height="50" width="50" class="pull-right">
+		<img src="/usericon.png" height="50" width="50" class="pull-right">
 		<div >
 			<h4><a href="#Profile">User Name</a></h4>
 			<a href="#Settings">
@@ -9,25 +9,25 @@
 		</div>
 	</div>
 	<ul class="list-group sidebar-list">
-		<a href="/demopage" class="">
+		<a href="/" class="">
 			<li class="sidebar-list-item <?php if(!strcmp($active_page, "dashboard")) echo "active"; ?>">
 				Dashboard
 				<i class="glyphicon glyphicon-dashboard pull-right"></i>
 			</li>
 		</a>
-		<a href="/demopage/members">
+		<a href="/members">
 			<li class="sidebar-list-item <?php if(!strcmp($active_page, "members")) echo "active"; ?>">
 				Members
 				<i class="glyphicon glyphicon-user pull-right"></i>
 			</li>
 		</a>
-		<a href="/demopage/rosters">
+		<a href="/rosters">
 			<li class="sidebar-list-item <?php if(!strcmp($active_page, "rosters")) echo "active"; ?>">
 				Rosters
 				<i class="glyphicon glyphicon-calendar pull-right"></i>
 			</li>
 		</a>
-		<a href="/demopage/groups">
+		<a href="/groups">
 			<li class="sidebar-list-item <?php if(!strcmp($active_page, "groups")) echo "active"; ?>">
 				Groups
 				<i class="glyphicon glyphicon-list pull-right"></i>

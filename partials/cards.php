@@ -1,7 +1,7 @@
 <div class="row hidden-xs">
 	<div class="card-holder">
 		<div class="panel panel-default">
-			<a href="/demopage/members">
+			<a href="/members">
 				<div class="panel-body">
 					<i class="glyphicon glyphicon-user glyphicon-huge"></i>
 				</div>
@@ -11,7 +11,7 @@
 			</a>
 		</div>
 		<div class="panel panel-default">
-			<a href="/demopage/rosters">
+			<a href="/rosters">
 				<div class="panel-body">
 					<i class="glyphicon glyphicon-calendar glyphicon-huge"></i>
 				</div>

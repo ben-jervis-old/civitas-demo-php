@@ -1,19 +1,19 @@
 <div id="tab-menu" class="visible-xs-block">
 	<table>
 		<td class="<?php if(!strcmp($active_page, "dashboard")) echo "active"; ?>">
-			<a href="/demopage">
+			<a href="/">
 				<i class="glyphicon glyphicon-dashboard"></i>
 				<small>Dashboard</small>
 			</a>
 		</td>
 		<td class="<?php if(!strcmp($active_page, "members")) echo "active"; ?>">
-			<a href="/demopage/members">
+			<a href="/members">
 				<i class="glyphicon glyphicon-user"></i>
 				<small>Members</small>
 			</a>
 		</td>
 		<td class="<?php if(!strcmp($active_page, "rosters")) echo "active"; ?>">
-			<a href="/demopage/rosters">
+			<a href="/rosters">
 				<i class="glyphicon glyphicon-calendar"></i>
 				<small>Rostering</small>
 			</a>
